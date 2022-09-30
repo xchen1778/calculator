@@ -11,12 +11,14 @@ function ThemeSwitch() {
         className={`light ${themeColor === "light" ? "light-active" : ""}`}
         onClick={() => {
           setThemeColor("light");
+          window.localStorage.setItem("mode", JSON.stringify("light"));
         }}
       />
       <DarkModeIcon
         className={`dark ${themeColor === "dark" ? "dark-active" : ""}`}
         onClick={() => {
           setThemeColor("dark");
+          window.localStorage.setItem("mode", JSON.stringify("dark"));
         }}
       />
     </div>
