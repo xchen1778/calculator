@@ -1,0 +1,32 @@
+.themeswitch {
+  width: auto;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  padding: 8px 25px;
+  place-self: center;
+  border-radius: 20px;
+  z-index: 1;
+
+  .light {
+    transition: color 300ms ease-out;
+    &:hover {
+      color: $light;
+    }
+  }
+
+  .light-active {
+    color: $light;
+  }
+
+  .dark {
+    transition: color 300ms ease-out;
+    &:hover {
+      color: $dark;
+    }
+  }
+
+  .dark-active {
+    color: $dark;
+  }
+}

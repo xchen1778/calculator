@@ -1,0 +1,18 @@
+.app {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 25% 75%;
+  justify-content: center;
+  align-items: start;
+  transition: background-color 300ms ease-out;
+
+  .background-text {
+    position: absolute;
+    font-size: 350px;
+    font-family: $font-family2;
+    font-weight: 600;
+    bottom: 0;
+    right: 0;
+    transition: color 300ms ease-out;
+  }
+}

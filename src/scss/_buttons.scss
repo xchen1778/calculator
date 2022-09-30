@@ -1,0 +1,42 @@
+.buttons {
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+
+  button {
+    border: none;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    margin: 0;
+    padding: 0;
+
+    .MuiSvgIcon-root {
+      font-size: 20px;
+    }
+  }
+
+  .operators {
+    grid-area: 1 / 1 / 2 / 4;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .digits {
+    grid-area: 2 / 1 / 6 / 4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .clear-button {
+    grid-area: 1 / 4 / 3 / 5;
+  }
+
+  .result-button {
+    grid-area: span 3;
+    transition: background-color 300ms ease-out;
+  }
+}

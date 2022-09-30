@@ -1,0 +1,47 @@
+#light {
+  background-color: $gray100;
+}
+
+#light .background-text {
+  color: $gray300;
+  opacity: 0.3;
+}
+
+#light .themeswitch {
+  color: $gray400;
+  background-color: $gray300;
+}
+
+#light .display {
+  color: $white;
+  background: $gradient-light-orange;
+}
+
+#light .buttons {
+  button {
+    color: $text-dark;
+    background-color: $white;
+
+    &:hover {
+      background-color: $gray100;
+    }
+  }
+
+  .operators {
+    button {
+      background-color: $gray200;
+
+      &:hover {
+        background-color: $white;
+      }
+    }
+  }
+
+  .clear-button {
+    background-color: $gray300;
+  }
+
+  .result-button {
+    background: $gradient-light-orange;
+  }
+}

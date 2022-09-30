@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+
+$font-family1: "Roboto", sans-serif;
+$font-family2: "Oswald", sans-serif;
+
+$white: #ffffff;
+$gray100: #fafafa;
+$gray200: whitesmoke;
+$gray300: #eeeeee;
+$gray400: #c6c6c6;
+$light: #fdc089;
+$text-dark: #4b5061;
+$gradient-light-orange: linear-gradient(0.35turn, #fbab7e, #f7ce68);
+
+$dark400: #22252d;
+$dark300: #2e313a;
+$dark200: #30333b;
+$dark100: #393c45;
+$dark000: #40434d;
+$dark: #5167ca;
+$gradient-dark-blue: linear-gradient(0.35turn, #4156b5, #689af7);

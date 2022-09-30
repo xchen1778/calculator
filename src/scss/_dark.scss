@@ -1,0 +1,47 @@
+#dark {
+  background-color: $dark400;
+}
+
+#dark .background-text {
+  color: $dark300;
+  opacity: 0.15;
+}
+
+#dark .themeswitch {
+  color: $dark400;
+  background-color: $dark300;
+}
+
+#dark .display {
+  color: $white;
+  background: $gradient-dark-blue;
+}
+
+#dark .buttons {
+  button {
+    color: $gray400;
+    background-color: $dark100;
+
+    &:hover {
+      background-color: $dark000;
+    }
+  }
+
+  .operators {
+    button {
+      background-color: $dark200;
+
+      &:hover {
+        background-color: $dark100;
+      }
+    }
+  }
+
+  .clear-button {
+    background-color: $dark300;
+  }
+
+  .result-button {
+    background: $gradient-dark-blue;
+  }
+}

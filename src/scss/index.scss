@@ -1,0 +1,16 @@
+@import "./resets";
+@import "./variables";
+@import "./app";
+@import "./themeSwitch";
+@import "./calculator";
+@import "./display";
+@import "./buttons";
+
+@import "./light";
+@import "./dark";
+
+body {
+  font-family: $font-family1;
+  user-select: none;
+  overflow: hidden;
+}
