@@ -26,7 +26,9 @@ export function CalculationContextProvider({ children }) {
   function handleNumbers(num) {
     const newDisplay = (display === "0" ? "" : display) + num.toString();
     setDisplay(newDisplay);
-    setResult(eval(newDisplay).toString());
+    eval(newDisplay) === Infinity
+      ? setResult("Error")
+      : setResult(eval(newDisplay).toString());
     setShowDisplay(true);
   }
 
