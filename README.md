@@ -1,4 +1,4 @@
-# A simple calculator web app created by using React.js, Context API, Sass and Firebase.
+# A simple calculator web app created by using React, Context API, Sass, Local Storage and Firebase.
 
 Features:
 - simple calculations (take both mouse and keyboard inputs)
